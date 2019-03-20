@@ -2,7 +2,7 @@ export API=14
 export NDK=/home/gz/Android/android-ndk-r14b
 export SYSROOT=$NDK/platforms/android-$API/arch-arm/
 export TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
-export PREFIX=./output
+export PREFIX=./build
 
 ./configure \
 --prefix=$PREFIX \
